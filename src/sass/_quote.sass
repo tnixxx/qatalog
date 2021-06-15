@@ -1,26 +1,55 @@
 .quote
+    margin-top: 204px
     &-title
+        font-size: 39px
+        line-height: 48px
+        margin-bottom: 16px
     &-subtitle
+        font-weight: 300
+        text-align: center
+        margin-bottom: 64px
+        font-size: 31px
+        line-height: 40px
+        color: #949494 !important
     &__list
         display: flex
-        justify-content: center
+        justify-content: space-between
         &-item
+            width: 100%
             max-width: 421px
             padding: 30px
             background-color: #555151
             border-radius: 16px
+            transition: 0.3s
+            &:hover
+                &:nth-child(1)
+                    background-color: red
+                    p
+                        color: black !important
+                    path
+                        fill: black
+                &:nth-child(2)
+                    background-color: #1CFFE4
+                    p
+                        color: black !important
+                    path
+                        fill: black
+                &:nth-child(3)
+                    background-color: blue
+                    p
+                        color: black !important
+                    path
+                        fill: black
             &-img
                 height: 35px
             &-text
                 max-width: 305px
-                color: #949494 !important
+                color: #949494
                 margin-top: 40px
                 font-size: 24px
                 line-height: 32px
-                &::hover
-                    color: black !important !important
             &-info
-                margin-bottom: 0px !important
+                display: contents
                 color: #949494 !important
                 font-size: 17px
                 line-height: 24px
