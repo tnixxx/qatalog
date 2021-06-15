@@ -1,21 +1,87 @@
 .ingredients
     &-title
+        margin-bottom: 60px
     &__list
         display: flex
         flex-wrap: wrap
         justify-content: space-between
         &-item
+            padding: 32px
             background-color: #3E3E3E
             border-radius: 16px
             display: flex
             align-items: center
-            width: 408px
-            // width: 100%
-            // max-width: 408px
+            // width: 408px
+            width: 100%
+            max-width: 408px
+            margin-bottom: 24px
+            transition: 0.3s
+            &:hover
+                &:nth-child(1)
+                    background-color: #1CFFE4
+                    .ingredients__list-item-img
+                        path
+                            stroke: black
+                    .ingredients__list-item__container-title
+                        color: black
+                    .ingredients__list-item__container-text
+                        color: black
+                &:nth-child(2)
+                    background-color: #8E76DC
+                    .ingredients__list-item-img
+                        path
+                            stroke: black
+                    .ingredients__list-item__container-title
+                        color: black
+                    .ingredients__list-item__container-text
+                        color: black
+                &:nth-child(3)
+                    background-color: #F87853
+                    .ingredients__list-item-img
+                        path
+                            stroke: black
+                    .ingredients__list-item__container-title
+                        color: black
+                    .ingredients__list-item__container-text
+                        color: black
+                &:nth-child(4)
+                    background-color: #FBB254
+                    .ingredients__list-item-img
+                        path
+                            stroke: black
+                    .ingredients__list-item__container-title
+                        color: black
+                    .ingredients__list-item__container-text
+                        color: black
+                &:nth-child(5)
+                    background-color: #96A5F3
+                    .ingredients__list-item-img
+                        path
+                            stroke: black
+                    .ingredients__list-item__container-title
+                        color: black
+                    .ingredients__list-item__container-text
+                        color: black
+                &:nth-child(6)
+                    background-color: #F4F1FF
+                    .ingredients__list-item-img
+                        path
+                            stroke: black
+                    .ingredients__list-item__container-title
+                        color: black 
+                    .ingredients__list-item__container-text
+                        color: black
             &-img
             &__container
+                margin-left: 32px
                 &-title
+                    margin-bottom: 2px
+                    font-size: 24px
+                    line-height: 32px
                     margin-bottom: 0px
                     color: white
                 &-text
+                    font-size: 17px
+                    line-height: 24px
                     color: #949494 
+                    margin-bottom: 0px
