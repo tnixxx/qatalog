@@ -126,10 +126,6 @@ a:hover {
   .hero-img {
     display: none;
   }
-  .hero-img-mob {
-    display: block;
-    max-width: 452px;
-  }
 }
 
 .quote {
