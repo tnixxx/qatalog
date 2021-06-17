@@ -8,19 +8,21 @@
         margin-bottom: 32px
     &__list
         display: flex
-        // justify-content: center
+        justify-content: center
+        &-block
+            display: flex
+            margin-right: 56px
         &-item
-            // margin-right: 56px
-            // margin-bottom: 50px
+            margin-right: 56px
             &:last-child
                 margin-right: 0px
-// @media (max-width: 768px)
-//     .partners
-//         &__list
-//             display: block !important
-//             // flex-direction: column
-//             // justify-content: center
-//             // align-items: center
-//             &-item
-//                 margin-right: 30px
-//                 margin-bottom: 30px
+@media (max-width: 768px)
+    .partners
+        margin-bottom: 40px
+        &__list
+            flex-wrap: wrap
+            &-block
+                margin-right: 30px
+            &-item
+                margin-right: 30px
+                margin-bottom: 30px

@@ -5,8 +5,14 @@
         display: flex
         flex-direction: column
         align-items: flex-start
+        margin-right: 5px
         &-img
+            &:first-child
+                max-width: 87px
+                width: 100%
             &:last-child
+                width: 100%
+                max-width: 249px
                 margin-top: 96px
     &__container
         display: flex
@@ -49,8 +55,23 @@
     .footer
         flex-direction: column
         &__container
-            flex-direction: column
+            flex-wrap: wrap
             
+@media (max-width: 1020px)
+    .footer
         &-b
-            align-items: flex-start
+            margin-top: 30px
             flex-direction: column
+            align-items: flex-start
+        &__wrap
+            display: flex
+            flex-wrap: wrap
+            &-link
+                &-a
+                    margin-right: 10px
+                    margin-bottom: 7px
+        &__container
+            margin-top: 30px
+            &-item
+                &-title
+                    margin-bottom: 15px
